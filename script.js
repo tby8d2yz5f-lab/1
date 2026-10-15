@@ -1,20 +1,20 @@
 /* 修改文案：编辑下方 slogans 数组。新增照片：先上传至 assets，再将路径加入 photos 数组。 */
 const people = {
-  gurui: {name:'谷睿', role:'特别鸣谢：本主页主角', photo:'./assets/gurui.jpeg', photos:['./assets/gurui.jpeg'], slogans:[
+  gurui: {name:'谷睿',password:'gu0417', role:'特别鸣谢：本主页主角', photos:['./assets/gurui.jpeg'], slogans:[
     '我是侯明宇，谷睿他爹。',
     '谷睿，先别急着说话——侯明宇的主场时间到了。',
     '谷睿专属频道现已开启，本频道由侯明宇友情冠名。',
     '谷睿负责闪亮登场，侯明宇负责气氛拉满。',
     '郑重声明：谷睿的快乐指数，已被侯明宇列入重点关注。'
   ]},
-  xiongwenxuan: {name:'熊雯萱', role:'特别鸣谢：气氛担当', photo:'./assets/xiongwenxuan.jpeg', photos:['./assets/xiongwenxuan.jpeg'], slogans:[
+  xiongwenxuan: {name:'熊雯萱',password:'hmyluvxiong', role:'特别鸣谢：气氛担当', photos:['./assets/xiongwenxuan.jpeg'], slogans:[
     '我是侯明宇，熊雯萱的快乐气氛组组长。',
     '熊雯萱请注意：侯明宇已进入本主页，精彩即将开始。',
     '我叫侯明宇，今天也来给熊雯萱的日常加点戏。',
     '熊雯萱负责精彩，侯明宇负责把精彩写进档案。',
     '本主页友情播报：侯明宇已上线，请保持微笑。'
   ]},
-  zhushun: {name:'朱舜', role:'特别鸣谢：名场面制造者', photo:'./assets/zhushun.jpeg', photos:['./assets/zhushun.jpeg'], slogans:[
+  zhushun: {name:'朱舜',password:'zzjj',rloe:'特别鸣谢：名场面制造者', photos:['./assets/zhushun.jpeg'], slogans:[
     '我是侯明宇，朱舜的快乐监督员。',
     '朱舜，侯明宇来查收今日份名场面了。',
     '朱舜负责发挥，侯明宇负责专业点评。',
