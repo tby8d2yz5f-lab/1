@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#11101c">
+<meta name="description" content="侯明宇的宣言俱乐部：友情玩梗，快乐存档。">
+<title>侯明宇 · 宣言俱乐部</title>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div class="grain"></div><div class="glow glow-a"></div><div class="glow glow-b"></div>
+<header class="nav">
+  <a class="brand" href="./" id="brandHome"><span class="brand-icon">侯</span><span><b>侯明宇</b><small>DECLARATION CLUB</small></span></a>
+  <span class="nav-pill"><i></i> FRIENDS ONLY · JUST FOR FUN</span>
+</header>
+<main class="container">
+<section id="home" class="screen active">
+  <div class="hero">
+    <p class="eyebrow"><span class="eyebrow-line"></span> THE OFFICIAL UNOFFICIAL ARCHIVE</p>
+    <h1>欢迎来到<br><em>侯明宇的主场。</em></h1>
+    <p class="hero-copy">三位主角，专属主页，无限宣言。<br>选一个名字，看看今天又有什么新说法。</p>
+    <div class="hero-stats"><span><b>03</b><small>人物主页</small></span><span class="stat-divider"></span><span><b>∞</b><small>快乐脑洞</small></span></div>
+  </div>
+  <div class="section-label"><span>CHOOSE YOUR DESTINATION</span><span>01 — 03</span></div>
+  <div class="people-grid" id="peopleGrid"></div>
+  <footer class="footer"><span>© 侯明宇宣言俱乐部</span><span>保持幽默 · 友好玩梗 · 快乐第一</span></footer>
+</section>
+<section id="profile" class="screen" aria-live="polite">
+  <button class="back-link" id="backHome">← <span>返回人物列表</span></button>
+  <div class="profile-head"><div><p class="eyebrow"><span class="eyebrow-line"></span> PERSONAL DECLARATION</p><h1 id="profileHeading">专属主页</h1><p class="profile-sub" id="profileSub">侯明宇出场，宣言加载中。</p></div><span class="profile-number" id="profileNumber">PROFILE 01</span></div>
+  <div class="feature-card">
+    <div class="photo-panel">
+      <img id="mainPhoto" src="" alt="主页照片">
+      <div class="photo-overlay"></div>
+      <span class="photo-label">THE MOMENT</span>
+      <span class="photo-index" id="photoIndex">01 / 01</span>
+      <button class="photo-next" id="photoNext" aria-label="下一张照片">↗</button>
+    </div>
+    <div class="statement-panel">
+      <div class="statement-top"><span class="status-dot"></span><span>侯明宇 · 正在发表宣言</span></div>
+      <div class="statement-mark">“</div>
+      <p class="statement" id="statement">我是侯明宇。</p>
+      <div class="statement-bottom"><span id="sloganIndex">DECLARATION 01 / 05</span><span class="mini-stars">✳ ✳ ✳</span></div>
+      <div class="actions"><button class="btn btn-primary" id="nextSlogan">换一句宣言 <span>↗</span></button><button class="btn btn-quiet" id="copySlogan">复制文案</button></div>
+      <p class="copy-feedback" id="copyFeedback" role="status"></p>
+    </div>
+  </div>
+  <div class="gallery-title"><div><p class="eyebrow">MEMORY LANE</p><h2>相册精选</h2></div><p>点选照片，切换主视觉</p></div>
+  <div class="gallery" id="gallery"></div>
+  <div class="profile-foot"><span>友情提示：内容纯属朋友间娱乐。</span><span>照片可在 <code>assets</code> 文件夹中添加</span></div>
+</section>
+</main>
+<div class="toast" id="toast" role="status"></div>
+<script src="./script.js"></script>
+</body></html>
